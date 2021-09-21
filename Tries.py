@@ -41,4 +41,5 @@ class Tries:
 tries = Tries()
 tries.insert("word")
 print(tries.search("wor"))
+print(tries.search("word"))
 print(tries.start_with("woj"))
