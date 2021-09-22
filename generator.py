@@ -4,7 +4,7 @@ def gen(n):
         yield i**2
 
 
-g = gen(100)
+g = gen(10)
 
 for num in g:
     print(num)
