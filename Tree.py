@@ -41,7 +41,7 @@ class BinaryTree:
                 return True
             elif node.right is not None:
                 nodes.push(node.right)
-                if node.left is not  None:
+                if node.left is not None:
                     nodes.push(node.left)
         return False
 
