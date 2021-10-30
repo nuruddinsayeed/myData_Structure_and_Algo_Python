@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Tag:
     def __init__(self, tag) -> None:
         self.tag = tag
@@ -46,7 +49,7 @@ class CustomerContact(Contact, CustomerContactTitle):
 
 class Customer(Address, Contact, Tag):
 
-    wesite_tags = []
+    wesite_tags: List = []
     customer_contacts = []  # Customer can add multiple contacts
     inovoice_addresses = []  # Customer can add multiple invoice addresses
     shipping_addresses = []  # Customer can add multiple shipping addresses
